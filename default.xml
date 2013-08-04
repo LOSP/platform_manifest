@@ -5,20 +5,19 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/"
-           review="https://review.slimroms.net:8443/"/>
+           fetch="git://github.com/" />
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="jb4.2" >
+  <project path="build" name="LOSP/android_build" remote="github" revision="jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="jb4.2" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="jb4.2" />
+  <project path="bootable/recovery" name="LOSP/bootable_recovery" remote="github" revision="jellybean" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="jb4.2" />
   <project path="development" name="SlimRoms/android_development" remote="github" revision="jb4.2" />
@@ -185,14 +184,14 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="SlimRoms/android_external_wpa_supplicant_6" remote="github" revision="jb4.2" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="jb4.2" />
+  <project path="external/wpa_supplicant_8" name="LOSP/android_external_wpa_supplicant_8" remote="github" revision="jellybean" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="jb4.2" />
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="jb4.2" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="jb4.2" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="jb4.2" />
+  <project path="frameworks/av" name="LOSP/frameworks_av" remote="github" revision="jellybean" />
+  <project path="frameworks/base" name="LOSP/frameworks_base" remote="github" revision="jellybean" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -209,7 +208,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="jb4.2" />
+  <project path="frameworks/opt/telephony" name="LOSP/frameworks_opt_telephony" remote="github" revision="jellybean" />
   <project path="frameworks/opt/vcard" name="SlimRoms/android_frameworks_opt_vcard" remote="github" revision="jb4.2" />
   <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -219,15 +218,21 @@
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="jb4.2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="jb4.2" />
-  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="jb4.2" />
+  <project path="hardware/libhardware_legacy" name="LOSP/hardware_libhardware_legacy" remote="github" revision="jellybean" />
   <project path="hardware/msm7k" name="SlimRoms/hardware_msm7k" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="jb4.2" />
+  <project path="hardware/qcom/audio-caf" name="LOSP/hardware_qcom_audio-caf" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/audio-aries" name="LOSP/hardware_qcom_audio-aries" remote="github" revision="jellybean" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="jb4.2" />
+  <project path="hardware/qcom/display-legacy" name="LOSP/hardware_qcom_display-legacy" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/display-caf" name="LOSP/hardware_qcom_display-caf" remote="github" revision="jellybean" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="jb4.2" />
+  <project path="hardware/qcom/media-legacy" name="SlimRoms/hardware_qcom_media-legacy" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="jellybean" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
@@ -245,7 +250,7 @@
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="jb4.2" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="jb4.2" />
   <project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="github" revision="jb4.2" />
-  <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Calendar" name="LOSP/packages_apps_Calendar" remote="github" revision="jellybean" />
   <project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" remote="github" revision="jb4.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
@@ -257,18 +262,18 @@
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="jb4.2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/LightLauncher" name="LOSP/packages_apps_LightLauncher" remote="github" revision="jellybean" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Mms" name="LOSP/packages_apps_Mms" remote="github" revision="jellybean" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="SlimRoms/packages_apps_MusicFX" remote="github" revision="jb4.2" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="jb4.2" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="SlimRoms/packages_apps_Phone" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Phone" name="LOSP/packages_apps_Phone" remote="github" revision="jellybean" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="jb4.2" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Settings" name="LOSP/packages_apps_Settings" remote="github" revision="jellybean" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="SlimRoms/packages_apps_SoundRecorder" remote="github" revision="jb4.2" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -325,25 +330,22 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="SlimRoms/android_system_bluetooth" remote="github" revision="jb4.2" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="jb4.2" />
+  <project path="system/core" name="LOSP/android_system_core" remote="github" revision="jellybean" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="jb4.2" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="jb4.2" />
+  <project path="system/netd" name="LOSP/android_system_netd" remote="github" revision="jellybean" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="jb4.2" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="jb4.2" />
+  <project path="platform_manifest" name="LOSP/platform_manifest" remote="github" revision="jellybean" />
 
-  <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="jb4.2" />
+  <!-- LOSP Additions -->
+  <project path="vendor/losp" name="LOSP/vendor_losp" remote="github" revision="jellybean" />
 
-  <!-- Slim File Manager -->
-  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="jb4.2" />
-
-  <!-- Slim OTA -->
-  <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="jb4.2" />
+  <!-- CM File Manager -->
+  <project path="packages/apps/CMFileManager" name="LOSP/packages_apps_CMFileManager" remote="github" revision="jellybean" />
 
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.1" />
@@ -360,5 +362,14 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="cm-10.1" />
+
+  <!-- LOSP Devices -->
+  <project path="device/xiaomi/mione_plus" name="LOSP/android_device_xiaomi_mione_plus" remote="github" revision="jellybean" />
+  <project path="device/xiaomi/msm8660-comon" name="LOSP/android_device_xiaomi_msm8660-comon" remote="github" revision="jellybean" />
+  <project path="device/xiaomi/aries" name="LOSP/android_device_xiaomi_aries" remote="github" revision="jellybean" />
+
+  <!-- LOSP Device Vendors -->
+  <project path="vendor/xiaomi/mione_plus" name="LOSP/android_vendor_xiaomi_mione_plus" remote="github" revision="jellybean" />
+  <project path="vendor/aries" name="LOSP/proprietary_vendor_aries" remote="github" revision="jellybean" />
 
 </manifest>
