@@ -268,7 +268,7 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="SlimRoms/packages_apps_MusicFX" remote="github" revision="jb4.2" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="jb4.2" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="LOSP/packages_apps_PackageInstaller" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="LOSP/packages_apps_Phone" remote="github" revision="jellybean" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="jb4.2" />
