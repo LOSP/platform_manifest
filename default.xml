@@ -369,7 +369,6 @@
   <project path="device/xiaomi/aries" name="LOSP/android_device_xiaomi_aries" remote="github" revision="jellybean" />
 
   <!-- LOSP Device Vendors -->
-  <project path="vendor/xiaomi/mione_plus" name="LOSP/android_vendor_xiaomi_mione_plus" remote="github" revision="jellybean" />
-  <project path="vendor/aries" name="LOSP/proprietary_vendor_aries" remote="github" revision="jellybean" />
+  <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" remote="github" revision="jellybean" />
 
 </manifest>
