@@ -364,10 +364,10 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="SlimRoms/android_system_bluetooth" remote="github" revision="jb4.3" />
-  <project path="system/core" name="LOSP/android_system_core" remote="github" revision="jb43" />
+  <project path="system/core" name="LOSP/system_core" remote="github" revision="jb43" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="jb4.3" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="LOSP/android_system_netd" remote="github" revision="jb43" />
+  <project path="system/netd" name="LOSP/system_netd" remote="github" revision="jb43" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="jb4.3" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
