@@ -406,7 +406,7 @@
 
   <!-- LOSP Devices -->
   <project path="device/xiaomi/mione_plus" name="LOSP/android_device_xiaomi_mione_plus" remote="github" revision="jb43" />
-  <project path="device/xiaomi/msm8660-comon" name="LOSP/android_device_xiaomi_msm8660-comon" remote="github" revision="jb43" />
+  <project path="device/xiaomi/msm8660-comon" name="LOSP/android_device_xiaomi_msm8660-common" remote="github" revision="jb43" />
   <project path="device/xiaomi/aries" name="LOSP/android_device_xiaomi_aries" remote="github" revision="jb43" />
 
   <!-- LOSP Device Vendors -->
