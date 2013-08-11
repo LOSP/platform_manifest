@@ -249,8 +249,8 @@
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="jb4.3" />
-  <project path="hardware/qcom/media-legacy" name="SlimRoms/hardware_qcom_media-legacy" remote="github" revision="jb43" />
-  <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="jb43" />
+  <project path="hardware/qcom/media-legacy" name="LOSP/android_hardware_qcom_media-legacy" remote="github" revision="jb43" />
+  <project path="hardware/qcom/media-caf" name="LOSP/android_hardware_qcom_media-caf" remote="github" revision="jb43" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
