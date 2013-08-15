@@ -248,7 +248,7 @@
   <project path="hardware/qcom/display-caf" name="LOSP/android_hardware_qcom_display-caf" remote="github" revision="jb43" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="jb4.3" />
+  <project path="hardware/qcom/media" name="LOSP/hardware_qcom_media" remote="github" revision="jb43" />
   <project path="hardware/qcom/media-legacy" name="LOSP/android_hardware_qcom_media-legacy" remote="github" revision="jb43" />
   <project path="hardware/qcom/media-caf" name="LOSP/android_hardware_qcom_media-caf" remote="github" revision="jb43" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
