@@ -274,7 +274,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="LOSP/packages_apps_Contacts" remote="github" revision="jb43" />
   <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" remote="github" revision="jb4.3" />
-  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="jb4.3" />
+  <project path="packages/apps/DeskClock" name="LOSP/packages_apps_DeskClock" remote="github" revision="jb43" />
   <project path="packages/apps/Dialer" name="LOSP/packages_apps_Dialer" remote="github" revision="jb43" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="jb4.3" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="jb4.3" />
