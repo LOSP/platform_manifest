@@ -413,8 +413,10 @@
   <!-- LOSP Device Vendors -->
   <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" remote="github" revision="jb43" />
 
-<!--CyanogenMod SamsungServiceMode -->
+  <!--CyanogenMod SamsungServiceMode -->
    <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-10.2" />
->>>>>>> slim-4.3
+
+    <!--CyanogenMod DSPManager -->
+   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.2" />
 
 </manifest>
