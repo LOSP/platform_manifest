@@ -409,11 +409,11 @@
   <project path="device/xiaomi/mione_plus" name="LOSP/android_device_xiaomi_mione_plus" remote="github" revision="jb43" />
   <project path="device/xiaomi/msm8660-common" name="LOSP/android_device_xiaomi_msm8660-common" remote="github" revision="jb43" />
   <project path="device/xiaomi/aries" name="LOSP/android_device_xiaomi_aries" remote="github" revision="jb43" />
-  <project path="device/lge/mako" name="LOSP/android_device_lge_mako" remote="github" revision="jb43" />
+  <project path="device/lge/mako" name="LOSP/device_lge_mako" remote="github" revision="jb43" />
 
   <!-- LOSP Device Vendors -->
   <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" remote="github" revision="jb43" />
-  <project path="vendor/lge" name="LOSP/proprietary_vendor_mako" remote="github" revision="jb43" />
+  <project path="vendor/lge" name="LOSP/proprietary_vendor_lge" remote="github" revision="jb43" />
   <project path="vendor/qcom" name="LOSP/proprietary_vendor_qcom" remote="github" revision="jb43" />
   <project path="vendor/broadcom" name="LOSP/proprietary_vendor_broadcom" remote="github" revision="jb43" />
   
