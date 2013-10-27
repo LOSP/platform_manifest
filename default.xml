@@ -245,6 +245,7 @@
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" remote="github" revision="jb43" />
+  <project path="hardware/qcom/display-legacy-caf" name="LOSP/ahardware_qcom_display-legacy-caf" remote="github" revision="jb43" />
   <project path="hardware/qcom/display-caf" name="LOSP/android_hardware_qcom_display-caf" remote="github" revision="jb43" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
