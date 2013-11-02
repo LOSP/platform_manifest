@@ -1,0 +1,2 @@
+$ repo init -u git://github.com/LOSP/platform_manifest.git -b kk
+$ repo sync

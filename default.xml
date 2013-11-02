@@ -3,6 +3,8 @@
 
   <remote  name="aosp"
            fetch=".." />
+  <remote  name="github"
+           fetch="git://github.com/" />
   <default revision="refs/tags/android-4.4_r1"
            remote="aosp"
            sync-j="4" />
@@ -15,7 +17,7 @@
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="bootable/recovery" name="LOSP/bootable_recovery" remote="github" revision="kk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
@@ -277,8 +279,11 @@
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" />
+  <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" remote="github" revision="kk" />
+  <project path="hardware/qcom/display-legacy-caf" name="LOSP/hardware_qcom_display-legacy-caf" remote="github" revision="kk" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
+  <project path="hardware/qcom/media-legacy" name="LOSP/android_hardware_qcom_media-legacy" remote="github" revision="kk" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
@@ -427,5 +432,16 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="platform_manifest" name="LOSP/platform_manifest" remote="github" revision="kk" />
+
+  <!-- LOSP Additions -->
+  <project path="vendor/losp" name="LOSP/vendor_losp" remote="github" revision="kk" />
+
+  <!-- LOSP Devices -->
+  <project path="device/xiaomi/mione_plus" name="LOSP/android_device_xiaomi_mione_plus" remote="github" revision="kk" />
+  <project path="device/xiaomi/msm8660-common" name="LOSP/android_device_xiaomi_msm8660-common" remote="github" revision="kk" />
+
+  <!-- LOSP Device Vendors -->
+  <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" remote="github" revision="kk" />
 
 </manifest>
