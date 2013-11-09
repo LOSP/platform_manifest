@@ -231,7 +231,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/av" name="LOSP/frameworks_av" remote="github" revision="kk" />
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -264,8 +264,8 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware" name="LOSP/android_hardware_libhardware" remote="github" revison="kk" />
+  <project path="hardware/libhardware_legacy" name="LOSP/android_hardware_libhardware_legacy" remote="github" revision="kk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="LOSP/android_hardware_qcom_audio-caf" remote="github" revision="kk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
@@ -428,6 +428,7 @@
 
   <!-- LOSP Additions -->
   <project path="vendor/losp" name="LOSP/vendor_losp" remote="github" revision="kk" />
+  <project path="external/koush/Superuser" name="LOSP/Superuser" remote="github" revision="kk" />
 
   <!-- LOSP Devices -->
   <project path="device/xiaomi/mione_plus" name="LOSP/android_device_xiaomi_mione_plus" remote="github" revision="kk" />
