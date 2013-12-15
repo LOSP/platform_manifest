@@ -408,7 +408,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="LOSP/system_core" remote="github" revision="kk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <project path="system/extras" name="LOSP/system_extras" remote="github" revision="kk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -429,6 +429,7 @@
   <!-- CyanogenMod Additions -->
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-11.0" />
 
   <!-- LOSP Additions -->
   <project path="vendor/losp" name="LOSP/vendor_losp" remote="github" revision="kk" />
