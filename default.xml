@@ -410,7 +410,7 @@
   <project path="system/core" name="LOSP/system_core" remote="github" revision="kk" />
   <project path="system/extras" name="LOSP/system_extras" remote="github" revision="kk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="name="LOSP/system_netd" remote="github" revision="kk"" groups="pdk" />
+  <project path="system/netd" name="LOSP/system_netd" remote="github" revision="kk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="LOSP/system_vold" remote="github" revision="kk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
