@@ -433,6 +433,8 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat"  remote="github" revision="cm-11.0"/>
   <project path="external/fuse" name="CyanogenMod/android_external_fuse"  remote="github" revision="cm-11.0"/>
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g"  remote="github" revision="cm-11.0"/>
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt"  remote="github" revision="cm-11.0"/>
+  <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard"  remote="github" revision="cm-11.0"/>
 
   <!-- LOSP Additions -->
   <project path="vendor/losp" name="LOSP/vendor_losp" remote="github" revision="kk" />
