@@ -267,7 +267,6 @@
   <project path="hardware/libhardware_legacy" name="LOSP/android_hardware_libhardware_legacy" remote="github" revision="kk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="LOSP/android_hardware_qcom_audio-caf" remote="github" revision="kk" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="LOSP/hardware_qcom_display" remote="github" revision="kk" />
   <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" remote="github" revision="kk" />
@@ -434,6 +433,8 @@
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g"  remote="github" revision="cm-11.0"/>
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt"  remote="github" revision="cm-11.0"/>
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard"  remote="github" revision="cm-11.0"/>
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt"  remote="github" revision="cm-11.0"/>
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps"  remote="github" revision="cm-11.0"/>
 
   <!-- LOSP Additions -->
   <project path="vendor/losp" name="LOSP/vendor_losp" remote="github" revision="kk" />
