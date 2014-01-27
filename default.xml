@@ -260,8 +260,8 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/libbt" name="LOSP/hardware_broadcom_libbt" remote="github" revision="kk" />
+  <project path="hardware/broadcom/wlan" name="LOSP/hardware_broadcom_wlan" remote="github" revision="kk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="LOSP/android_hardware_libhardware" remote="github" revision="kk" />
   <project path="hardware/libhardware_legacy" name="LOSP/android_hardware_libhardware_legacy" remote="github" revision="kk" />
