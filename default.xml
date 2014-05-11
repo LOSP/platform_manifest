@@ -437,7 +437,7 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps"  remote="github" revision="cm-11.0"/>
 
   <!-- Theme Engine -->
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/ThemeChooser" name="LOSP/packages_apps_ThemeChooser" remote="github" revision="kk" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider"  remote="github" revision="cm-11.0" />
 
   <!-- LOSP Additions -->
