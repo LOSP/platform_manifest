@@ -152,7 +152,7 @@
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
-  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
+  <project path="external/libsepol" name="LOSP/external_libsepol" remote="github" revision="kk" />
    <project path="external/libssh2" name="platform/external/libssh2" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
