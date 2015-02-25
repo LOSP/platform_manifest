@@ -582,5 +582,6 @@
   <project path="kernel/xiaomi/aries" name="LOSP/kernel_xiaomi_aries" />
   <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
+  <project path="hardware/qcom/camera" name="LOSP/android_hardware_qcom_camera" />
   <project path="platform_manifest" name="LOSP/platform_manifest" />
 </manifest>
